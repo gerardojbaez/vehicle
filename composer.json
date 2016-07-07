@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gerardojbaez\\Vehicle\\": "src/"
+            "Gerardojbaez\\Vehicle\\": "src/Vehicle/"
         }
     }
 }
