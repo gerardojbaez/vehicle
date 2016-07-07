@@ -1,0 +1,534 @@
+[
+    {
+        "id": 1,
+        "name": "Acura"
+    },
+    {
+        "id": 298,
+        "name": "Alfa Romeo"
+    },
+    {
+        "id": 343,
+        "name": "AM General"
+    },
+    {
+        "id": 349,
+        "name": "American Motors Corporation"
+    },
+    {
+        "id": 376,
+        "name": "ASC Incorporated"
+    },
+    {
+        "id": 377,
+        "name": "Aston Martin"
+    },
+    {
+        "id": 515,
+        "name": "Audi"
+    },
+    {
+        "id": 1405,
+        "name": "Aurora Cars Ltd"
+    },
+    {
+        "id": 1406,
+        "name": "Autokraft Limited"
+    },
+    {
+        "id": 1410,
+        "name": "Avanti Motor Corporation"
+    },
+    {
+        "id": 1412,
+        "name": "Azure Dynamics"
+    },
+    {
+        "id": 1414,
+        "name": "Bentley"
+    },
+    {
+        "id": 1522,
+        "name": "Bertone"
+    },
+    {
+        "id": 1529,
+        "name": "Bill Dovell Motor Car Company"
+    },
+    {
+        "id": 1533,
+        "name": "Bitter Gmbh and Co. Kg"
+    },
+    {
+        "id": 1538,
+        "name": "BMW"
+    },
+    {
+        "id": 3171,
+        "name": "BMW Alpina"
+    },
+    {
+        "id": 3174,
+        "name": "Bugatti"
+    },
+    {
+        "id": 3182,
+        "name": "Buick"
+    },
+    {
+        "id": 3800,
+        "name": "BYD"
+    },
+    {
+        "id": 3804,
+        "name": "Cadillac"
+    },
+    {
+        "id": 4311,
+        "name": "CCC Engineering"
+    },
+    {
+        "id": 4313,
+        "name": "Chevrolet"
+    },
+    {
+        "id": 8052,
+        "name": "Chrysler"
+    },
+    {
+        "id": 8751,
+        "name": "CODA Automotive"
+    },
+    {
+        "id": 8753,
+        "name": "Consulier Industries Inc"
+    },
+    {
+        "id": 8756,
+        "name": "CX Automotive"
+    },
+    {
+        "id": 8773,
+        "name": "Dabryan Coach Builders Inc"
+    },
+    {
+        "id": 8782,
+        "name": "Dacia"
+    },
+    {
+        "id": 8785,
+        "name": "Daewoo"
+    },
+    {
+        "id": 8852,
+        "name": "Daihatsu"
+    },
+    {
+        "id": 8869,
+        "name": "Dodge"
+    },
+    {
+        "id": 11372,
+        "name": "E. P. Dutton, Inc."
+    },
+    {
+        "id": 11373,
+        "name": "Eagle"
+    },
+    {
+        "id": 11534,
+        "name": "Environmental Rsch and Devp Corp"
+    },
+    {
+        "id": 11535,
+        "name": "Evans Automobiles"
+    },
+    {
+        "id": 11538,
+        "name": "Excalibur Autos"
+    },
+    {
+        "id": 11539,
+        "name": "Federal Coach"
+    },
+    {
+        "id": 11553,
+        "name": "Ferrari"
+    },
+    {
+        "id": 11749,
+        "name": "Fiat"
+    },
+    {
+        "id": 11789,
+        "name": "Fisker"
+    },
+    {
+        "id": 11790,
+        "name": "Ford"
+    },
+    {
+        "id": 14886,
+        "name": "General Motors"
+    },
+    {
+        "id": 14887,
+        "name": "Genesis"
+    },
+    {
+        "id": 14894,
+        "name": "Geo"
+    },
+    {
+        "id": 15041,
+        "name": "GMC"
+    },
+    {
+        "id": 17403,
+        "name": "Goldacre"
+    },
+    {
+        "id": 17404,
+        "name": "Grumman Allied Industries"
+    },
+    {
+        "id": 17405,
+        "name": "Grumman Olson"
+    },
+    {
+        "id": 17409,
+        "name": "Honda"
+    },
+    {
+        "id": 18278,
+        "name": "Hummer"
+    },
+    {
+        "id": 18297,
+        "name": "Hyundai"
+    },
+    {
+        "id": 18955,
+        "name": "Import Foreign Auto Sales Inc"
+    },
+    {
+        "id": 18956,
+        "name": "Import Trade Services"
+    },
+    {
+        "id": 18969,
+        "name": "Infiniti"
+    },
+    {
+        "id": 19300,
+        "name": "Isis Imports Ltd"
+    },
+    {
+        "id": 19301,
+        "name": "Isuzu"
+    },
+    {
+        "id": 19735,
+        "name": "J.K. Motors"
+    },
+    {
+        "id": 19771,
+        "name": "Jaguar"
+    },
+    {
+        "id": 20115,
+        "name": "JBA Motorcars, Inc."
+    },
+    {
+        "id": 20116,
+        "name": "Jeep"
+    },
+    {
+        "id": 20936,
+        "name": "Kenyon Corporation Of America"
+    },
+    {
+        "id": 20940,
+        "name": "Kia"
+    },
+    {
+        "id": 21424,
+        "name": "Laforza Automobile Inc"
+    },
+    {
+        "id": 21426,
+        "name": "Lambda Control Systems"
+    },
+    {
+        "id": 21427,
+        "name": "Lamborghini"
+    },
+    {
+        "id": 21534,
+        "name": "Land Rover"
+    },
+    {
+        "id": 21676,
+        "name": "Lexus"
+    },
+    {
+        "id": 22065,
+        "name": "Lincoln"
+    },
+    {
+        "id": 22341,
+        "name": "London Coach Co Inc"
+    },
+    {
+        "id": 22342,
+        "name": "London Taxi"
+    },
+    {
+        "id": 22343,
+        "name": "Lotus"
+    },
+    {
+        "id": 22398,
+        "name": "Mahindra"
+    },
+    {
+        "id": 22399,
+        "name": "Maserati"
+    },
+    {
+        "id": 22506,
+        "name": "Maybach"
+    },
+    {
+        "id": 22537,
+        "name": "Mazda"
+    },
+    {
+        "id": 23477,
+        "name": "Mcevoy Motors"
+    },
+    {
+        "id": 23483,
+        "name": "McLaren Automotive"
+    },
+    {
+        "id": 23494,
+        "name": "Mercedes-Benz"
+    },
+    {
+        "id": 24769,
+        "name": "Mercury"
+    },
+    {
+        "id": 25378,
+        "name": "Merkur"
+    },
+    {
+        "id": 25392,
+        "name": "MINI"
+    },
+    {
+        "id": 25696,
+        "name": "Mitsubishi"
+    },
+    {
+        "id": 26716,
+        "name": "Mobility Ventures LLC"
+    },
+    {
+        "id": 26718,
+        "name": "Morgan"
+    },
+    {
+        "id": 26721,
+        "name": "Nissan"
+    },
+    {
+        "id": 28049,
+        "name": "Oldsmobile"
+    },
+    {
+        "id": 28511,
+        "name": "Pagani"
+    },
+    {
+        "id": 28513,
+        "name": "Panos"
+    },
+    {
+        "id": 28514,
+        "name": "Panoz Auto-Development"
+    },
+    {
+        "id": 28515,
+        "name": "Panther Car Company Limited"
+    },
+    {
+        "id": 28519,
+        "name": "PAS Inc - GMC"
+    },
+    {
+        "id": 28521,
+        "name": "PAS, Inc"
+    },
+    {
+        "id": 28523,
+        "name": "Peugeot"
+    },
+    {
+        "id": 28621,
+        "name": "Pininfarina"
+    },
+    {
+        "id": 28627,
+        "name": "Plymouth"
+    },
+    {
+        "id": 29153,
+        "name": "Pontiac"
+    },
+    {
+        "id": 30046,
+        "name": "Porsche"
+    },
+    {
+        "id": 30915,
+        "name": "Quantum Technologies"
+    },
+    {
+        "id": 30917,
+        "name": "Qvale"
+    },
+    {
+        "id": 30918,
+        "name": "Ram"
+    },
+    {
+        "id": 30970,
+        "name": "Red Shift Ltd."
+    },
+    {
+        "id": 30972,
+        "name": "Renault"
+    },
+    {
+        "id": 31028,
+        "name": "Rolls-Royce"
+    },
+    {
+        "id": 31197,
+        "name": "Roush Performance"
+    },
+    {
+        "id": 31250,
+        "name": "Ruf Automobile Gmbh"
+    },
+    {
+        "id": 31253,
+        "name": "S and S Coach Company  E.p. Dutton"
+    },
+    {
+        "id": 31254,
+        "name": "Saab"
+    },
+    {
+        "id": 31686,
+        "name": "Saleen"
+    },
+    {
+        "id": 31691,
+        "name": "Saleen Performance"
+    },
+    {
+        "id": 31696,
+        "name": "Saturn"
+    },
+    {
+        "id": 31974,
+        "name": "Scion"
+    },
+    {
+        "id": 32058,
+        "name": "Shelby"
+    },
+    {
+        "id": 32059,
+        "name": "smart"
+    },
+    {
+        "id": 32087,
+        "name": "Spyker"
+    },
+    {
+        "id": 32100,
+        "name": "SRT"
+    },
+    {
+        "id": 32102,
+        "name": "Sterling"
+    },
+    {
+        "id": 32114,
+        "name": "Subaru"
+    },
+    {
+        "id": 32937,
+        "name": "Superior Coaches Div E.p. Dutton"
+    },
+    {
+        "id": 32938,
+        "name": "Suzuki"
+    },
+    {
+        "id": 33453,
+        "name": "Tecstar, LP"
+    },
+    {
+        "id": 33459,
+        "name": "Tesla"
+    },
+    {
+        "id": 33487,
+        "name": "Texas Coach Company"
+    },
+    {
+        "id": 33491,
+        "name": "Toyota"
+    },
+    {
+        "id": 35373,
+        "name": "TVR Engineering Ltd"
+    },
+    {
+        "id": 35377,
+        "name": "Vector"
+    },
+    {
+        "id": 35381,
+        "name": "Vixen Motor Company"
+    },
+    {
+        "id": 35382,
+        "name": "Volga Associated Automobile"
+    },
+    {
+        "id": 35383,
+        "name": "Volkswagen"
+    },
+    {
+        "id": 36478,
+        "name": "Volvo"
+    },
+    {
+        "id": 37232,
+        "name": "VPG"
+    },
+    {
+        "id": 37237,
+        "name": "Wallace Environmental"
+    },
+    {
+        "id": 37269,
+        "name": "Yugo"
+    }
+]
