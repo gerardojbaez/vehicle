@@ -34,7 +34,7 @@ class ModelsController extends Controller
      */
     public function models($make)
     {
-    	$models = $this->model->byMake($make)->orderBy('name')->get(['id', 'name']);
+    	$models = $this->model->byMake($make)->orderBy('name')->get(['id', 'name', 'class']);
 
     	return response()->json([
     		'models' => $models
