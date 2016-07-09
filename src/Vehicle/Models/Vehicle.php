@@ -3,10 +3,20 @@
 namespace Gerardojbaez\Vehicle\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Gerardojbaez\Vehicle\Contracts\HasMake as HasMakeContract;
+use Gerardojbaez\Vehicle\Contracts\HasModel as HasModelContract;
+use Gerardojbaez\Vehicle\Contracts\HasModelYear as HasModelYearContract;
+use Gerardojbaez\Vehicle\Contracts\HasVehicle as HasVehicleContract;
 use Gerardojbaez\Vehicle\Contracts\Vehicle as VehicleContract;
+use Gerardojbaez\Vehicle\Traits\HasMake;
+use Gerardojbaez\Vehicle\Traits\HasModel;
+use Gerardojbaez\Vehicle\Traits\HasModelYear;
+use Gerardojbaez\Vehicle\Traits\HasVehicle;
 
 class Vehicle extends Model implements VehicleContract
 {
+    use HasMake, HasModel, HasModelYear;
+
     /**
      * The attributes that are mass assignable.
      *
@@ -36,36 +46,6 @@ class Vehicle extends Model implements VehicleContract
         {
             if ( ! $model->name) $model->attributes['name'] = $model->generateVehicleName();
         });
-    }
-
-    /**
-     * Model belongs to one make.
-     *
-     * @return mixed
-     */
-    public function make()
-    {
-    	return $this->belongsTo(VehicleMake::class);
-    }
-
-    /**
-     * Model belongs to one vehicle model.
-     *
-     * @return mixed
-     */
-    public function model()
-    {
-    	return $this->belongsTo(VehicleModel::class);
-    }
-
-    /**
-     * Model belongs to one year.
-     *
-     * @return mixed
-     */
-    public function year()
-    {
-        return $this->belongsTo(VehicleModelYear::class);
     }
 
     /**
