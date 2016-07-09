@@ -19,7 +19,7 @@ class CreateVehicleOptionsTable extends Migration
             $table->integer('model_id')->unsigned();
             $table->integer('year_id')->unsigned();
             $table->tinyInteger('cylinders');
-            $table->decimal('displacement', 2,2);
+            $table->string('displacement');
             $table->string('drive');
             $table->string('transmission');
             $table->timestamps();
