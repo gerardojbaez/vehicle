@@ -18,6 +18,7 @@ return [
         'VehicleMake' => Gerardojbaez\Vehicle\VehicleMake::class,
         'VehicleModel' => Gerardojbaez\Vehicle\VehicleModel::class,
         'VehicleYear' => Gerardojbaez\Vehicle\VehicleModelYear::class,
+        'vehicle' => Gerardojbaez\Vehicle\Vehicle::class,
     ],
 
 ];
