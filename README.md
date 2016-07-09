@@ -1,6 +1,6 @@
 # Vehicles Data for Laravel 5.2
 
-This package allows you to work with vehicles Makes, Models and Years in
+This package allows you to work with vehicles makes, models, years and other details in
 Laravel 5.2.
 
 ##### Where the data come from?
@@ -34,7 +34,7 @@ Pull this package through Composer (file `composer.json`)
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "gerardojbaez/vehicle": "0.*"
+        "gerardojbaez/vehicle": "1.*"
     }
 }
 ```
@@ -74,7 +74,9 @@ Then the vehicle seeder.
 	php artisan db:seed --class VehicleTablesSeeder
 	
 ### Traits and Contracts
-When one of your models has make, model and/or model year you can add the required relations with our traits. See the following example:
+When one of your models has make, model, model year and/or a vehicle you can add the required relations with the traits. 
+
+See the following example:
 
 ```php
 <?php
@@ -85,16 +87,31 @@ namespace App\Models;
 use Gerardojbaez\Vehicle\Contracts\HasMake as HasMakeContract;
 use Gerardojbaez\Vehicle\Contracts\HasModel as HasModelContract;
 use Gerardojbaez\Vehicle\Contracts\HasModelYear as HasModelYearContract;
+use Gerardojbaez\Vehicle\Contracts\HasVehicle as HasVehicleContract;
 use Gerardojbaez\Vehicle\Traits\HasMake;
 use Gerardojbaez\Vehicle\Traits\HasModel;
 use Gerardojbaez\Vehicle\Traits\HasModelYear;
+use Gerardojbaez\Vehicle\Traits\HasVehicle;
 
-class Vehicle extends Model implements HasMakeContract, HasModelContract, HasModelYearContract
+class Vehicle extends Model implements HasMakeContract, HasModelContract, HasModelYearContract, HasVehicleContract
 {
-	use HasMake, HasModel, HasModelYear;
+	use HasMake, HasModel, HasModelYear, HasVehicle;
+
+	/**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'make_id',
+        'model_id',
+        'year_id',
+        'vehicle_id',
+        ...
+    ];
 ```
 
-> You do not need to use all traits if you did not use all of them. You can use only `HasMake` trait when only make is used for example.
+> You do not need to use all traits if you do not need them. You can use only `HasMake` trait when only make is used for example.
 
 ## Usage
 
@@ -127,7 +144,7 @@ When you have done, run:
 This package comes with `Gerardojbaez\Vehicle\Models\VehicleMake`,
 `Gerardojbaez\Vehicle\Models\VehicleModel`,
 `Gerardojbaez\Vehicle\Models\VehicleModelYear` and
-`Gerardojbaez\Vehicle\Models\VehicleOption` models.
+`Gerardojbaez\Vehicle\Models\Vehicle` models.
 
 For more information please take a look at each model.
 
@@ -135,7 +152,8 @@ For more information please take a look at each model.
 It's more likely that you will want to retrieve makes, models and years from your frontend (via ajax for example); we have created these basic controllers for you:
 `Gerardojbaez\Vehicle\Controllers\MakesController`, 
 `Gerardojbaez\Vehicle\Controllers\ModelsController`, 
-`Gerardojbaez\Vehicle\Controllers\ModelYearsController`. You can use these directly or extends with your own.
+`Gerardojbaez\Vehicle\Controllers\ModelYearsController`, 
+`Gerardojbaez\Vehicle\Controllers\VehicleController`. You can use these directly or extends with your own.
 
 Controllers returns a json reponse containing (if any) the requested data.
 
@@ -162,6 +180,18 @@ Route::get('api/vehicles/{make}/models', [
 Route::get('api/vehicles/{make}/{model}/years', [
 	'uses' => 'Gerardojbaez\Vehicle\Controllers\ModelYearsController@years',
 	'as' => 'api.vehicles.years'
+]);
+
+// Show vehicles list
+Route::get('api/vehicles/{make}/{model}/{year}/vehicles', [
+	'uses' => 'Gerardojbaez\Vehicle\Controllers\VehiclesController@vehicles',
+	'as' => 'api.vehicles.vehicles'
+]);
+
+// Show vehicle details
+Route::get('api/vehicles/{vehicle}/vehicle', [
+	'uses' => 'Gerardojbaez\Vehicle\Controllers\VehiclesController@vehicle',
+	'as' => 'api.vehicles.vehicle'
 ]);
 ```
 
