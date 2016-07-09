@@ -45,7 +45,7 @@ class GenerateVehiclesData extends Command
         $makes = [];
         $models = [];
         $years = [];
-        $options = [];
+        $vehicles = [];
 
         if (file_exists($csvFile) AND ($handle = fopen($csvFile, 'r')) !== false)
         {
@@ -91,11 +91,15 @@ class GenerateVehiclesData extends Command
                     ];
                 }
 
-                $options[] = [
+                $vehicles[] = [
                     'id' => $rowNum,
                     'make_id' => (int) $makes[$row[$headers['make']]]['id'],
                     'model_id' => (int) $models[$makeAndModel]['id'],
                     'year_id' => (int) $years[$makeModelAndYear]['id'],
+                    'name' => $row[$headers['transmission']]
+                        .', '.$row[$headers['drive']]
+                        .', '.(int) $row[$headers['cylinders']].' cyl'
+                        .', '.(float) $row[$headers['displacement']].'L',
                     'cylinders' => (int) $row[$headers['cylinders']],
                     'displacement' => (float) $row[$headers['displacement']],
                     'drive' => $row[$headers['drive']],
@@ -111,7 +115,7 @@ class GenerateVehiclesData extends Command
             $this->generate('makes.json', array_values($makes));
             $this->generate('models.json', array_values($models));
             $this->generate('years.json', array_values($years));
-            $this->generate('options.json', array_values($options));
+            $this->generate('vehicles.json', array_values($vehicles));
 
             return;
         }

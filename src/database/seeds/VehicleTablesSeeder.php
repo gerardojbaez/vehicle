@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 use Gerardojbaez\Vehicle\VehicleMakesTableSeeder;
 use Gerardojbaez\Vehicle\VehicleModelsTableSeeder;
 use Gerardojbaez\Vehicle\VehicleModelYearsTableSeeder;
-use Gerardojbaez\Vehicle\VehicleOptionsTableSeeder;
+use Gerardojbaez\Vehicle\VehiclesTableSeeder;
 
 class VehicleTablesSeeder extends Seeder
 {
@@ -18,6 +18,6 @@ class VehicleTablesSeeder extends Seeder
         $this->call(VehicleMakesTableSeeder::class);
         $this->call(VehicleModelsTableSeeder::class);
         $this->call(VehicleModelYearsTableSeeder::class);
-        $this->call(VehicleOptionsTableSeeder::class);
+        $this->call(VehiclesTableSeeder::class);
     }
 }
