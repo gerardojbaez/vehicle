@@ -20,7 +20,7 @@ class CreateVehiclesTable extends Migration
             $table->integer('year_id')->unsigned();
             $table->string('name');
             $table->tinyInteger('cylinders');
-            $table->decimal('displacement', 1,1);
+            $table->string('displacement');
             $table->string('drive');
             $table->string('transmission');
             $table->timestamps();

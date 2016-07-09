@@ -71,7 +71,7 @@ Then run migrations.
 	
 Then the vehicle seeder.
 
-	php artisan db:seed --class VehiclesTablesSeeder
+	php artisan db:seed --class VehicleTablesSeeder
 	
 ### Traits and Contracts
 When one of your models has make, model and/or model year you can add the required relations with our traits. See the following example:
