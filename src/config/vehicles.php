@@ -15,10 +15,10 @@ return [
     */
 
     'models' => [
-        'VehicleMake' => Gerardojbaez\Vehicle\VehicleMake::class,
-        'VehicleModel' => Gerardojbaez\Vehicle\VehicleModel::class,
-        'VehicleYear' => Gerardojbaez\Vehicle\VehicleModelYear::class,
-        'vehicle' => Gerardojbaez\Vehicle\Vehicle::class,
+        'VehicleMake' => Gerardojbaez\Vehicle\Models\VehicleMake::class,
+        'VehicleModel' => Gerardojbaez\Vehicle\Models\VehicleModel::class,
+        'VehicleYear' => Gerardojbaez\Vehicle\Models\VehicleModelYear::class,
+        'vehicle' => Gerardojbaez\Vehicle\Models\Vehicle::class,
     ],
 
 ];
