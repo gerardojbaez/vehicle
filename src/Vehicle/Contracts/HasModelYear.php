@@ -9,5 +9,5 @@ interface HasModelYear
 	 *
 	 * @return mixed
 	 */
-	public function modelYear()
+	public function modelYear();
 }
