@@ -1,9 +1,9 @@
 <?php
 
-namespace Gerardojbaez\Vehicle;
+namespace Fruitware\Vehicle;
 
 use Illuminate\Database\Seeder;
-use Gerardojbaez\Vehicle\Models\VehicleModel;
+use Fruitware\Vehicle\Models\VehicleModel;
 
 class VehicleModelsTableSeeder extends Seeder
 {

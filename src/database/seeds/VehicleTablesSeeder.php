@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Gerardojbaez\Vehicle\VehicleMakesTableSeeder;
-use Gerardojbaez\Vehicle\VehicleModelsTableSeeder;
-use Gerardojbaez\Vehicle\VehicleModelYearsTableSeeder;
-use Gerardojbaez\Vehicle\VehiclesTableSeeder;
+use Fruitware\Vehicle\VehicleMakesTableSeeder;
+use Fruitware\Vehicle\VehicleModelsTableSeeder;
+use Fruitware\Vehicle\VehicleModelYearsTableSeeder;
+use Fruitware\Vehicle\VehiclesTableSeeder;
 
 class VehicleTablesSeeder extends Seeder
 {
