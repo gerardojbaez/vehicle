@@ -1,9 +1,9 @@
 <?php
 
-namespace Gerardojbaez\Vehicle\Models;
+namespace Fruitware\Vehicle\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Gerardojbaez\Vehicle\Contracts\VehicleModel as VehicleModelContract;
+use Fruitware\Vehicle\Contracts\VehicleModel as VehicleModelContract;
 
 class VehicleModel extends Model implements VehicleModelContract
 {

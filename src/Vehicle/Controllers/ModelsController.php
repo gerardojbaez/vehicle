@@ -1,12 +1,12 @@
 <?php
 
-namespace Gerardojbaez\Vehicle\Controllers;
+namespace Fruitware\Vehicle\Controllers;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Gerardojbaez\Vehicle\Models\VehicleModel;
+use Fruitware\Vehicle\Models\VehicleModel;
 
 class ModelsController extends Controller
 {

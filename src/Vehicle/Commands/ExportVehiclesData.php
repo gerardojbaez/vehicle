@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Vehicle\Commands;
+namespace Fruitware\Vehicle\Commands;
 
 use Illuminate\Console\Command;
 
