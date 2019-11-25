@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gerardojbaez\\Vehicle\\": "src/Vehicle/"
+            "Fruitware\\Vehicle\\": "src/Vehicle/"
         }
     }
 }
