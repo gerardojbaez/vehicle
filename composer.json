@@ -1,5 +1,6 @@
 {
-    "name": "gerardojbaez/vehicle",
+    "name": "fruitware/vehicle",
+    "license": "BSD",
     "description": "Laravel 5.2 package to work with vehicles data.",
     "authors": [
         {
@@ -9,8 +10,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "~5.0"
+        "php": "^7.2",
+        "illuminate/database": "6.1.*",
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
