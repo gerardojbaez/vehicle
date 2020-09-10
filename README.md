@@ -108,7 +108,13 @@ class Vehicle extends Model implements HasMakeContract, HasModelContract, HasMod
         'year_id',
         'vehicle_id',
         ...
-    ];
+    ];/**
+	 * Belongs to one model year.
+	 *
+	 * @return mixed
+	 */public function modelYear(){
+ // TODO: Implement modelYear() method.
+}
 ```
 
 > You do not need to use all traits if you do not need them. You can use only `HasMake` trait when only make is used for example.

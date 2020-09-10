@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Vehicle\Commands;
+namespace Fruitware\Vehicle\Commands;
 
 use Illuminate\Console\Command;
 
@@ -119,7 +119,7 @@ class GenerateVehiclesData extends Command
 
             return;
         }
-        
+
         $this->error("Cannot open file. Are you sure that {$csvFile} exists?");
     }
 

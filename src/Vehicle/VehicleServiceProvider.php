@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Vehicle;
+namespace Fruitware\Vehicle;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -12,8 +12,8 @@ class VehicleServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        'Gerardojbaez\Vehicle\Commands\GenerateVehiclesData',
-        'Gerardojbaez\Vehicle\Commands\ExportVehiclesData',
+        'Fruitware\Vehicle\Commands\GenerateVehiclesData',
+        'Fruitware\Vehicle\Commands\ExportVehiclesData',
     ];
 
     /**

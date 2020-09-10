@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-namespace Gerardojbaez\Vehicle\Contracts;
+namespace Fruitware\Vehicle\Contracts;
 
 interface Vehicle
 {

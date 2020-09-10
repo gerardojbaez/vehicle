@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-namespace Gerardojbaez\Vehicle\Contracts;
+namespace Fruitware\Vehicle\Contracts;
 
 interface HasModelYear
 {
@@ -9,5 +9,5 @@ interface HasModelYear
 	 *
 	 * @return mixed
 	 */
-	public function modelYear()
+	public function modelYear();
 }

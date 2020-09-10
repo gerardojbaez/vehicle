@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-namespace Gerardojbaez\Vehicle\Traits;
+namespace Fruitware\Vehicle\Traits;
 
 trait HasVehicle
 {

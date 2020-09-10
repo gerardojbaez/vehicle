@@ -1,12 +1,12 @@
 <?php
 
-namespace Gerardojbaez\Vehicle\Controllers;
+namespace Fruitware\Vehicle\Controllers;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Gerardojbaez\Vehicle\Models\Vehicle;
+use Fruitware\Vehicle\Models\Vehicle;
 
 class VehiclesController extends Controller
 {
@@ -51,7 +51,7 @@ class VehiclesController extends Controller
                 $query->select('id', 'year');
             }
         ];
-        
+
         $vehicles = $this->model->with($eagerLoading)
             ->byMake($make_id)
             ->byModel($model_id)

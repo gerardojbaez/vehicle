@@ -1,17 +1,17 @@
 <?php
 
-namespace Gerardojbaez\Vehicle\Models;
+namespace Fruitware\Vehicle\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Gerardojbaez\Vehicle\Contracts\HasMake as HasMakeContract;
-use Gerardojbaez\Vehicle\Contracts\HasModel as HasModelContract;
-use Gerardojbaez\Vehicle\Contracts\HasModelYear as HasModelYearContract;
-use Gerardojbaez\Vehicle\Contracts\HasVehicle as HasVehicleContract;
-use Gerardojbaez\Vehicle\Contracts\Vehicle as VehicleContract;
-use Gerardojbaez\Vehicle\Traits\HasMake;
-use Gerardojbaez\Vehicle\Traits\HasModel;
-use Gerardojbaez\Vehicle\Traits\HasModelYear;
-use Gerardojbaez\Vehicle\Traits\HasVehicle;
+use Fruitware\Vehicle\Contracts\HasMake as HasMakeContract;
+use Fruitware\Vehicle\Contracts\HasModel as HasModelContract;
+use Fruitware\Vehicle\Contracts\HasModelYear as HasModelYearContract;
+use Fruitware\Vehicle\Contracts\HasVehicle as HasVehicleContract;
+use Fruitware\Vehicle\Contracts\Vehicle as VehicleContract;
+use Fruitware\Vehicle\Traits\HasMake;
+use Fruitware\Vehicle\Traits\HasModel;
+use Fruitware\Vehicle\Traits\HasModelYear;
+use Fruitware\Vehicle\Traits\HasVehicle;
 
 class Vehicle extends Model implements VehicleContract
 {
